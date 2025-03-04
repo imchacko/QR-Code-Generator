@@ -31,7 +31,7 @@ A successful request returns a JSON response containing the download URL of the 
 ### Example Success Response
 ```json
 {
-  "download_url": "https://your-s3-bucket.s3.eu-north-1.amazonaws.com/qrcodes/1700000000.png"
+  "download_url": "https://f9ys51ix8i.execute-api.eu-north-1.amazonaws.com/dev/qrcodes/1700000000.png"
 }
 ```
 
