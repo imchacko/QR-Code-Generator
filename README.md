@@ -5,7 +5,7 @@ This API allows users to generate a QR code for a UPI ID and retrieve the QR cod
 
 ## Base URL
 ```
-https://f9ys51ix8i.execute-api.eu-north-1.amazonaws.com/dev
+https://5nscr5mr37.execute-api.eu-north-1.amazonaws.com/default/QRCodeGenerator
 ```
 
 ## Endpoint
@@ -22,7 +22,7 @@ GET /QRCodeGenerator
 ### Example Request (Postman)
 **Method:** `GET`
 ```
-https://f9ys51ix8i.execute-api.eu-north-1.amazonaws.com/dev/QRCodeGenerator?upi_id=rahul.chacko@okhdfc
+https://5nscr5mr37.execute-api.eu-north-1.amazonaws.com/default/QRCodeGenerator?upi_id=rahul.chacko@okhdfc
 ```
 
 ## Response
@@ -109,7 +109,7 @@ To expose your Lambda function via an HTTP endpoint:
 ## Executing the API
 Test the API using Postman or `curl`:
 ```bash
-curl -X GET "https://f9ys51ix8i.execute-api.eu-north-1.amazonaws.com/dev/QRCodeGenerator?upi_id=rahul.chacko@okhdfc"
+curl -X GET "https://5nscr5mr37.execute-api.eu-north-1.amazonaws.com/default/QRCodeGenerator?upi_id=rahul.chacko@okhdfc"
 ```
 
 ## AWS Credentials Verification
